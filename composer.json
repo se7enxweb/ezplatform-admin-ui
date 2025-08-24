@@ -16,11 +16,11 @@
     "require": {
         "php": "^7.1 || ^8.1 || ^8.2",
         "ext-json": "*",
-        "symfony/symfony": "^3.4",
+        "se7enxweb/symfony": "^3.4",
         "jms/translation-bundle": "^1.6.0",
         "se7enxweb/ezpublish-kernel": "^7.5.6@dev",
         "se7enxweb/repository-forms": "^2.5@dev",
-        "ezsystems/ezplatform-admin-ui-modules": "^1.5@dev",
+        "se7enxweb/ezplatform-admin-ui-modules": "^1.5@dev",
         "se7enxweb/ez-support-tools": "^1.0",
         "se7enxweb/ezplatform-design-engine": "^2.0@dev",
         "se7enxweb/ezplatform-user": "^1.0@dev",
