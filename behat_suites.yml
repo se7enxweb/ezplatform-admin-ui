@@ -3,13 +3,13 @@
 default:
     extensions:
         Behat\MinkExtension:
-            files_path: '%paths.base%/vendor/ezsystems/ezplatform-admin-ui/src/lib/Behat/TestFiles/'
+            files_path: '%paths.base%/vendor/se7enxweb/ezplatform-admin-ui/src/lib/Behat/TestFiles/'
 
 adminui:
     suites:
         adminui:
             paths:
-              - '%paths.base%/vendor/ezsystems/ezplatform-admin-ui/features/standard'
+              - '%paths.base%/vendor/se7enxweb/ezplatform-admin-ui/features/standard'
             filters:
                 tags: "@common"
             contexts:
@@ -42,7 +42,7 @@ adminui:
 
         adminuimodules:
             paths:
-                - '%paths.base%/vendor/ezsystems/ezplatform-admin-ui/features/standard/ContentTypeFields.feature'
+                - '%paths.base%/vendor/se7enxweb/ezplatform-admin-ui/features/standard/ContentTypeFields.feature'
             filters:
                 tags: "@common"
             contexts:
@@ -61,8 +61,8 @@ adminui:
 
         richtext:
             paths:
-                - '%paths.base%/vendor/ezsystems/ezplatform-admin-ui/features/standard/ContentCreation.feature'
-                - '%paths.base%/vendor/ezsystems/ezplatform-admin-ui/features/standard/ContentDraft.feature'
+                - '%paths.base%/vendor/se7enxweb/ezplatform-admin-ui/features/standard/ContentCreation.feature'
+                - '%paths.base%/vendor/se7enxweb/ezplatform-admin-ui/features/standard/ContentDraft.feature'
             filters:
                 tags: "@common"
             contexts:
@@ -81,7 +81,7 @@ adminui:
 
         personas:
             paths:
-                - '%paths.base%/vendor/ezsystems/ezplatform-admin-ui/features/personas'
+                - '%paths.base%/vendor/se7enxweb/ezplatform-admin-ui/features/personas'
             contexts:
                 - EzSystems\EzPlatformAdminUi\Behat\Helper\UtilityContext
                 - EzSystems\EzPlatformAdminUi\Behat\Helper\Hooks
