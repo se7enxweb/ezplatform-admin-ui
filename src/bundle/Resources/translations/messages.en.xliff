@@ -62,8 +62,8 @@
         <note>key: authentication.username</note>
       </trans-unit>
       <trans-unit id="b1b04388859d233f757e4f6376af3fc317d4baa6" resname="base.footer_copyright">
-        <source>eZ Platform ©1999-%current_year% %ez_link_open%eZ Systems AS%ez_link_close% and others.</source>
-        <target state="new">eZ Platform ©1999-%current_year% %ez_link_open%eZ Systems AS%ez_link_close% and others.</target>
+        <source>Exponential Platform ©1998-%current_year% %ez_link_open%7x%ez_link_close% and others.</source>
+        <target state="new">Exponential Platform ©1998-%current_year% %ez_link_open%7x%ez_link_close% and others.</target>
         <note>key: base.footer_copyright</note>
       </trans-unit>
       <trans-unit id="d21d07085caa55b0fee2fc054a6878bbdb24ae78" resname="breadcrumb.admin">
