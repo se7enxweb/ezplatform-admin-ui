@@ -8,6 +8,13 @@
 
     .navbar-brand {
         padding-top: 0;
+	aspect-ratio: 338 / 105;
+        max-width: 136px;
+    }
+
+    .navbar-brand svg {
+        max-width: 100%;
+	height: auto;
     }
 
     .nav-tabs {
