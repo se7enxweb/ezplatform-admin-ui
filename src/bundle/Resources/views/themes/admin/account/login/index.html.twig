@@ -1,7 +1,7 @@
 {% extends '@ezdesign/account/base.html.twig' %}
 
 {%- block content -%}
-    <h2 class="ez-login__actions-headline">{{ 'base.sign_in'|trans|desc('Sign in to IBEXA DXP') }}</h2>
+    <h2 class="ez-login__actions-headline">{{ 'base.sign_in'|trans|desc('Sign in to Exponential Platform') }}</h2>
     <p class="ez-login__actions-subheadline">{{ 'base.enter_credentials'|trans|desc('Enter your login credentials below.') }}</p>
 
     <form action="{{ path( 'login_check' ) }}" method="post" role="form">
