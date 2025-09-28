@@ -1,8 +1,8 @@
 {
     "name": "se7enxweb/ezplatform-admin-ui",
-    "license": "GPL-2.0-only",
+    "license": "GPL-2.0-or-later",
     "type": "project",
-    "description": "eZ Platform Admin v2",
+    "description": "Exponential Platform Admin v2",
     "autoload": {
         "psr-4": {
           "EzSystems\\EzPlatformAdminUiBundle\\": "src/bundle/",
@@ -13,7 +13,7 @@
         "psr-4": { "EzSystems\\EzPlatformAdminUi\\Tests\\": "src/lib/Tests" }
     },
     "require": {
-        "php": "^7.3",
+        "php": "^8.1 || ^8.2 || ^8.3 || ^8.4",
         "ext-json": "*",
         "symfony/http-foundation": "^5.0",
         "symfony/security-core": "^5.0",
@@ -32,7 +32,7 @@
         "symfony/asset": "^5.0",
         "symfony/yaml": "^5.0",
         "jms/translation-bundle": "^1.5",
-        "ezsystems/ezplatform-kernel": "~1.2.0@dev",
+        "se7enxweb/ezplatform-kernel": "~1.2.40@dev",
         "ezsystems/ezplatform-content-forms": "^1.0@dev",
         "ezsystems/ezplatform-design-engine": "^3.0@dev",
         "ezsystems/ezplatform-user": "^2.0@dev",
