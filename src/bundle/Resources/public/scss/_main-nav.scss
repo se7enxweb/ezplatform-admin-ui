@@ -9,10 +9,16 @@
     }
 
     .navbar-brand {
-        max-width: calculateRem(88px);
-        max-height: calculateRem(24px);
+        aspect-ratio: 338 / 105;
+        max-width: calculateRem(114px);
+        max-height: 3rem;
         padding-top: 0;
         text-align: center;
+    }
+
+    .navbar-brand svg {
+        max-width: 100%;
+        height: 40px;
     }
 
     .nav-tabs {
