@@ -141,7 +141,7 @@ module.exports = (Encore) => {
             path.resolve(__dirname, '../public/js/scripts/sidebar/btn/user.edit.js'),
             path.resolve(__dirname, '../public/js/scripts/sidebar/btn/location.create.js'),
             path.resolve(__dirname, '../public/js/scripts/sidebar/instant.filter.js'),
-            path.resolve('./vendor/ezsystems/ezplatform-admin-ui-assets/Resources/public/vendors/leaflet/dist/leaflet.js'),
+            path.resolve('./vendor/se7enxweb/ezplatform-admin-ui-assets/Resources/public/vendors/leaflet/dist/leaflet.js'),
             path.resolve(__dirname, '../public/js/scripts/admin.location.load.map.js'),
             path.resolve(__dirname, '../public/js/scripts/sidebar/btn/content.edit.js'),
             path.resolve(__dirname, '../public/js/scripts/sidebar/btn/content.hide.js'),
@@ -173,7 +173,7 @@ module.exports = (Encore) => {
         .addEntry('ezplatform-admin-ui-link-manager-view-js', [path.resolve(__dirname, '../public/js/scripts/button.content.edit.js')])
         .addEntry('ezplatform-admin-ui-change-user-password-js', [path.resolve(__dirname, '../public/js/scripts/user_password.change.js')])
         .addEntry('ezplatform-admin-ui-content-edit-parts-js', [
-            path.resolve('./vendor/ezsystems/ezplatform-admin-ui-assets/Resources/public/vendors/leaflet/dist/leaflet.js'),
+            path.resolve('./vendor/se7enxweb/ezplatform-admin-ui-assets/Resources/public/vendors/leaflet/dist/leaflet.js'),
             path.resolve(__dirname, '../public/js/scripts/admin.location.tab.js'),
             path.resolve(__dirname, '../public/js/scripts/admin.content.edit.js'),
             path.resolve(__dirname, '../public/js/scripts/fieldType/base/base-field.js'),

@@ -2,7 +2,7 @@
 <html>
     <head>
         <meta charset="UTF-8" />
-        <title>Ibexa DXP</title>
+        <title>Exponential Platform</title>
         {{ encore_entry_link_tags('ezplatform-admin-ui-security-base-css', null, 'ezplatform') }}
         <link rel="icon" type="image/x-icon" href="{{ asset('bundles/ezplatformadminui/img/favicon.ico') }}" />
     </head>
@@ -11,15 +11,15 @@
             <div class="row ez-login">
                 <div class="col-5 ez-login__image-col">
                     <div class="ez-login__support-wrapper">
-                        <h2 class="ez-login__support-headline">{{ 'base.need_assistance'|trans|desc('Get to know Ibexa DXP') }}</h2>
+                        <h2 class="ez-login__support-headline">{{ 'base.need_assistance'|trans|desc('Get to know Exponential Platform') }}</h2>
                         <span class="ez-login__support-content">{{ 'base.visit_support'|trans({
-                                '%ez_documentation_link%': '<a class="ez-link ez-link--light ez-link--no-hover-color" href="https://developers.ibexa.co/documentation-hub">https://developers.ibexa.co/documentation-hub</a>',
-                                '%ez_contact_link%': '<a class="ez-link ez-link--light ez-link--no-hover-color" href="https://www.ibexa.co/about-ibexa/contact-us">https://www.ibexa.co/about-ibexa/contact-us</a>'
+                                '%ez_documentation_link%': '<a class="ez-link ez-link--light ez-link--no-hover-color" href="https://platform.exponential.earth/doc">https://platform.exponential.earth/doc</a>',
+                                '%ez_contact_link%': '<a class="ez-link ez-link--light ez-link--no-hover-color" href="https://se7enx.com/contact">https://se7enx.com/contact</a>'
                               })| desc('Visit the official documentation %ez_documentation_link%<br/>or get in touch with us: %ez_contact_link%')|raw }}</span>
                     </div>
                 </div>
                 <div class="col-7 ez-login__actions-col">
-                    <img class="ez-login__logo" src="{{ asset('/bundles/ezplatformadminui/img/ibexa-logo.svg') }}" alt="ibexa" />
+                    <svg class="ez-login__logo"><use xlink:href="/bundles/ezplatformadminui/img/exponential-platform.svg#logo-white"></use></svg>
                     <div class="ez-login__actions-wrapper">
                         {%- block content -%} {%- endblock content -%}
                     </div>

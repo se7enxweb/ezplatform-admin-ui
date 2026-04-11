@@ -72,18 +72,18 @@
         <note>key: base.enter_credentials</note>
       </trans-unit>
       <trans-unit id="b1b04388859d233f757e4f6376af3fc317d4baa6" resname="base.footer_copyright">
-        <source><![CDATA[Copyright &#169; IBEXA 1999-%current_year%]]></source>
-        <target state="new"><![CDATA[Copyright &#169; IBEXA 1999-%current_year%]]></target>
+        <source><![CDATA[Copyright Copyright &#169; IBEXA 1999-#169; 7x 1998-%current_year%]]></source>
+        <target state="new"><![CDATA[Copyright Copyright &#169; IBEXA 1999-#169; 7x 1998-%current_year%]]></target>
         <note>key: base.footer_copyright</note>
       </trans-unit>
       <trans-unit id="c82a33e6a2272aab44ff7b78c90817c0fc8768cb" resname="base.need_assistance">
-        <source>Get to know Ibexa DXP</source>
-        <target state="new">Get to know Ibexa DXP</target>
+        <source>Get to know Exponential Platform</source>
+        <target state="new">Get to know Exponential Platform</target>
         <note>key: base.need_assistance</note>
       </trans-unit>
       <trans-unit id="b5305384fa0fd949ec756891f50f093fd26dd06c" resname="base.sign_in">
-        <source>Sign in to IBEXA DXP</source>
-        <target state="new">Sign in to IBEXA DXP</target>
+        <source>Sign in to Exponential Platform</source>
+        <target state="new">Sign in to Exponential Platform</target>
         <note>key: base.sign_in</note>
       </trans-unit>
       <trans-unit id="34e898c4a61c4925b523416b0c7ecd9574d8e48b" resname="base.visit_support">
