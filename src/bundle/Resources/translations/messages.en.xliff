@@ -72,8 +72,8 @@
         <note>key: base.enter_credentials</note>
       </trans-unit>
       <trans-unit id="b1b04388859d233f757e4f6376af3fc317d4baa6" resname="base.footer_copyright">
-        <source><![CDATA[Copyright Copyright &#169; 7x 1998 - %current_year%]]></source>
-        <target state="new"><![CDATA[Copyright Copyright &#169; 1998 - %current_year%]]></target>
+        <source><![CDATA[Copyright &#169; 7x 1998 - %current_year%]]></source>
+        <target state="new"><![CDATA[Copyright &#169; 7x 1998 - %current_year%]]></target>
         <note>key: base.footer_copyright</note>
       </trans-unit>
       <trans-unit id="c82a33e6a2272aab44ff7b78c90817c0fc8768cb" resname="base.need_assistance">
