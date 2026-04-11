@@ -1,3 +1,5 @@
+@use '../../../vars' as *;
+@use '../../../mixins' as *;
 .c-sort-switcher {
     @include toggler-wrapper();
     padding: calculateRem(4px);

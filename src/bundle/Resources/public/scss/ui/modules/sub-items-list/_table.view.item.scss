@@ -1,3 +1,5 @@
+@use 'sass:color';
+@use '../../../vars' as *;
 .c-table-view-item {
     &__translation {
         display: block;
@@ -186,7 +188,7 @@
 
         &--cancel:hover,
         &--cancel:focus {
-            background: darken($ibexa-color-base-dark, 15%);
+            background: color.adjust($ibexa-color-base-dark, $lightness: -15%);
         }
 
         &--edit {

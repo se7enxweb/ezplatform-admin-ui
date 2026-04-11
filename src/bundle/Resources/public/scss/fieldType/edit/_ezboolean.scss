@@ -1,3 +1,4 @@
+@use '../../mixins' as *;
 .ez-field-edit--ezboolean {
     @include checkbox-switcher();
 

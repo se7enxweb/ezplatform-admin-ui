@@ -1,4 +1,6 @@
-@import 'extra-actions';
+@use 'sass:color';
+@use 'vars' as *;
+@use 'extra-actions' as *;
 
 .ez-btn {
     display: inline-block;
@@ -25,15 +27,15 @@
 
         &:hover {
             color: $ibexa-white;
-            background-color: darken($ibexa-color-primary, 7.5%);
+            background-color: color.adjust($ibexa-color-primary, $lightness: -7.5%);
         }
 
         &:active {
-            background-color: darken($ibexa-color-primary, 7.5%);
+            background-color: color.adjust($ibexa-color-primary, $lightness: -7.5%);
         }
 
         &:focus {
-            background-color: darken($ibexa-color-primary, 7.5%);
+            background-color: color.adjust($ibexa-color-primary, $lightness: -7.5%);
             box-shadow: 0 0 0 calculateRem(4px) rgba($ibexa-color-primary, 0.5);
         }
 
@@ -168,7 +170,7 @@
 .ez-side-menu {
     .btn-dark {
         &:hover {
-            background-color: lighten($ibexa-color-base-black, 7.5%);
+            background-color: color.adjust($ibexa-color-base-black, $lightness: 7.5%);
         }
 
         &.ez-btn--content-tree-expanded {

@@ -1,3 +1,4 @@
+@use './vars' as *;
 .ez-content-type-selector {
     $selector: '.ez-content-type-selector';
     padding-left: calculateRem(38px);

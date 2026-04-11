@@ -1,3 +1,4 @@
+@use './vars' as *;
 .breadcrumb {
     padding: calculateRem(24px) 0 calculateRem(16px);
     flex-wrap: nowrap;

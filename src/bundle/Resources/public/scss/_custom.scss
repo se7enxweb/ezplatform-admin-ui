@@ -1,4 +1,6 @@
-@import './public/bundles/ezplatformadminui/scss/functions/calculate.rem';
+@use 'sass:color';
+@use 'sass:string';
+@use 'functions/calculate.rem' as *;
 
 // Ibexa transition function
 $ibexa-admin-transition: cubic-bezier(0.25, 0.8, 0.25, 1);
@@ -46,15 +48,15 @@ $ez-admin-widget-open-transition: $ibexa-admin-widget-open-transition;
 $ez-admin-widget-close-transition: $ibexa-admin-widget-close-transition;
 
 $ez-color-primary: $ibexa-color-primary;
-$ez-color-primary-hover: darken($ibexa-color-primary, 15%);
+$ez-color-primary-hover: color.adjust($ibexa-color-primary, $lightness: -15%);
 $ez-color-secondary: $ibexa-color-primary;
-$ez-color-secondary-hover: darken($ez-color-secondary, 15%);
+$ez-color-secondary-hover: color.adjust($ez-color-secondary, $lightness: -15%);
 $ez-color-hyperlink: $ibexa-color-primary;
-$ez-color-hyperlink-hover: darken($ez-color-hyperlink, 15%);
+$ez-color-hyperlink-hover: color.adjust($ez-color-hyperlink, $lightness: -15%);
 $ez-color-positive: $ibexa-color-positive;
 $ez-color-warning: $ibexa-color-warning;
 $ez-color-danger: $ibexa-color-danger;
-$ez-color-danger-hover: darken($ibexa-color-danger, 15%);
+$ez-color-danger-hover: color.adjust($ibexa-color-danger, $lightness: -15%);
 
 $ez-white: $ibexa-white;
 $ez-ground-base-pale: $ibexa-color-base-light;
@@ -62,12 +64,12 @@ $ez-ground-base-light: $ibexa-color-base-pale;
 $ez-ground-base: $ibexa-color-base-pale;
 $ez-ground-base-medium: $ibexa-white;
 $ez-ground-base-dark: $ibexa-color-base-light;
-$ez-ground-base-dark-hover: darken($ibexa-color-base-light, 15%);
+$ez-ground-base-dark-hover: color.adjust($ibexa-color-base-light, $lightness: -15%);
 $ez-color-base-pale: $ibexa-white;
 $ez-color-base-light: $ibexa-color-base-dark;
-$ez-color-base-light-hover: darken($ibexa-color-base-dark, 15%);
+$ez-color-base-light-hover: color.adjust($ibexa-color-base-dark, $lightness: -15%);
 $ez-color-base-medium: $ibexa-color-base-dark;
-$ez-color-base-medium-hover: darken($ibexa-color-base-dark, 15%);
+$ez-color-base-medium-hover: color.adjust($ibexa-color-base-dark, $lightness: -15%);
 $ez-color-base-dark: $ibexa-black;
 $ez-black: $ibexa-black;
 
@@ -183,7 +185,7 @@ $breadcrumb-padding-y: 0;
 $breadcrumb-padding-x: 0;
 $breadcrumb-item-padding: calculateRem(8px);
 $breadcrumb-bg: transparent;
-$breadcrumb-divider: quote('>');
+$breadcrumb-divider: string.quote('>');
 
 // Links
 $link-decoration: underline;

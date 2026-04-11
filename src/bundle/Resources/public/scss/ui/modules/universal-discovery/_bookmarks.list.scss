@@ -1,3 +1,4 @@
+@use '../../../vars' as *;
 .c-bookmarks-list {
     width: calculateRem(215px);
     background-color: $ibexa-color-base-light;

@@ -1,3 +1,4 @@
+@use '../../../vars' as *;
 .c-no-items {
     padding: 0 calculateRem(32px);
     font-style: italic;

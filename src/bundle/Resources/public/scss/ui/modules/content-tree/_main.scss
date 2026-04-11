@@ -1,3 +1,4 @@
+@use '../../../vars' as *;
 .m-tree {
     padding: 0 calculateRem(3px) calculateRem(30px) 0;
     min-width: calculateRem(250px);

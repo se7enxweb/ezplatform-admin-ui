@@ -1,3 +1,4 @@
+@use '../../../vars' as *;
 .c-progress-bar {
     background: #d8d8d8;
     height: calculateRem(6px);

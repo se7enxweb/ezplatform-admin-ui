@@ -1,3 +1,5 @@
+@use '../../vars' as *;
+@use '../../mixins' as *;
 .ez-field-edit--ezkeyword {
     .ez-data-source__taggify {
         display: flex;

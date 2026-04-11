@@ -1,3 +1,4 @@
+@use './vars' as *;
 .ez-link {
     text-decoration: underline;
     transition: all 0.2s $ibexa-admin-transition;

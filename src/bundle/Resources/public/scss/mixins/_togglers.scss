@@ -1,3 +1,4 @@
+@use '../vars' as *;
 @mixin toggler-wrapper {
     position: relative;
     display: flex;

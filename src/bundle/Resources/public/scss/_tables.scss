@@ -1,3 +1,4 @@
+@use './vars' as *;
 .ez-table {
     border-spacing: 0 calculateRem(1px);
 

@@ -1,3 +1,5 @@
+@use 'sass:color';
+@use '../../../vars' as *;
 .c-content-table-item {
     cursor: pointer;
 
@@ -8,7 +10,7 @@
     }
 
     &--marked {
-        background-color: lighten($ibexa-white, 15%);
+        background-color: color.adjust($ibexa-white, $lightness: 15%);
     }
 
     &--not-selectable {

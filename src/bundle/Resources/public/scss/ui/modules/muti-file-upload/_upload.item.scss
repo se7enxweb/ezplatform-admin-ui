@@ -1,3 +1,5 @@
+@use 'sass:color';
+@use '../../../vars' as *;
 .c-upload-list-item {
     display: flex;
     background: $ibexa-white;
@@ -87,7 +89,7 @@
 
         &--delete:hover,
         &--delete:focus {
-            fill: darken($ibexa-color-danger, 15%);
+            fill: color.adjust($ibexa-color-danger, $lightness: -15%);
         }
 
         &--abort {
@@ -96,7 +98,7 @@
 
         &--abort:hover,
         &--abort:focus {
-            fill: darken($ibexa-color-base-dark, 15%);
+            fill: color.adjust($ibexa-color-base-dark, $lightness: -15%);
         }
     }
 

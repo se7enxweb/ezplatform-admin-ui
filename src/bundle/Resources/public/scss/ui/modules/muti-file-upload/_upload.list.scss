@@ -1,3 +1,4 @@
+@use '../../../vars' as *;
 .c-upload-list {
     &__title {
         padding: calculateRem(12px) calculateRem(32px);

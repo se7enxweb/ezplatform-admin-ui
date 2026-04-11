@@ -1,3 +1,4 @@
+@use '../../../vars' as *;
 .c-tab-selector {
     &__item {
         min-height: calculateRem(40px);

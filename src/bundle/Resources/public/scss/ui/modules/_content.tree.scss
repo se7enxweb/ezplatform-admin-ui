@@ -1,3 +1,3 @@
-@import 'content-tree/list.item';
-@import 'content-tree/list';
-@import 'content-tree/main';
+@use 'content-tree/list.item' as *;
+@use 'content-tree/list' as *;
+@use 'content-tree/main' as *;

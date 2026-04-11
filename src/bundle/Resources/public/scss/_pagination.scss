@@ -1,3 +1,5 @@
+@use './vars' as *;
+@use './mixins' as *;
 .ez-pagination {
     @include pagination-main-container();
     padding: calculateRem(24px) calculateRem(16px);

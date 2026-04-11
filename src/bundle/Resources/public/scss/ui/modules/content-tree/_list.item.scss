@@ -1,3 +1,4 @@
+@use '../../../vars' as *;
 $list-item: '.c-list-item';
 $list-item-height: calculateRem(20px);
 
@@ -67,10 +68,11 @@ $list-item-height: calculateRem(20px);
             border: none;
             outline: none;
         }
-        + &--light {
-            &:before {
-                border-color: transparent transparent transparent $ibexa-white;
-            }
+    }
+
+    #{$list-item}__toggler + #{$list-item}__toggler--light {
+        &:before {
+            border-color: transparent transparent transparent $ibexa-white;
         }
     }
 

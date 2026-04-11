@@ -1,3 +1,5 @@
+@use 'sass:color';
+@use '../vars' as *;
 @mixin image-preview() {
     display: flex;
 
@@ -37,7 +39,7 @@
 
                 &:hover,
                 &:focus {
-                    background: darken($ibexa-color-base-dark, 15%);
+                    background: color.adjust($ibexa-color-base-dark, $lightness: -15%);
                 }
             }
         }

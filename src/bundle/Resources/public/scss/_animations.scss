@@ -1,3 +1,4 @@
+@use './vars' as *;
 @keyframes background-to-transparent {
     0% {
         transform: scale(1);

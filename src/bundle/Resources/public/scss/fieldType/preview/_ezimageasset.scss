@@ -1,3 +1,4 @@
+@use '../../mixins' as *;
 .ez-field-preview--ezimageasset {
     @include image-preview();
 }

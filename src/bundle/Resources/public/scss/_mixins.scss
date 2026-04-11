@@ -1,13 +1,13 @@
-@import 'custom';
-@import 'functions/calculate.rem';
-@import 'mixins/image-preview';
-@import 'mixins/type-icon';
-@import 'mixins/inputs';
-@import 'mixins/general';
-@import 'mixins/tags';
-@import 'mixins/modals';
-@import 'mixins/togglers';
-@import 'mixins/pagination';
+@use 'vars' as *;
+@use 'mixins/inputs' as *;
+@forward 'mixins/image-preview';
+@forward 'mixins/type-icon';
+@forward 'mixins/inputs';
+@forward 'mixins/general';
+@forward 'mixins/tags';
+@forward 'mixins/modals';
+@forward 'mixins/togglers';
+@forward 'mixins/pagination';
 
 @mixin checkbox-icon($color: $ibexa-color-primary) {
     border: calculateRem(1px) solid $color;

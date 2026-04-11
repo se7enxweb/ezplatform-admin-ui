@@ -1,3 +1,4 @@
+@use './vars' as *;
 .ez-badge {
     padding: calculateRem(4px);
     font-size: calculateRem(16px);
