@@ -72,7 +72,7 @@
         "test": "phpunit -c phpunit.xml"
     },
     "replace": {
-        "ezsystems/ezplatform-admin-ui": "self.version"
+        "ezsystems/ezplatform-admin-ui": "*"
     },
     "extra": {
         "branch-alias": {
