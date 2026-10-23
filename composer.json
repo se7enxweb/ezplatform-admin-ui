@@ -14,7 +14,7 @@
         "psr-4": { "EzSystems\\EzPlatformAdminUi\\Tests\\": "src/lib/Tests" }
     },
     "require": {
-        "php": "^7.1 || ^8.1 || ^8.2",
+        "php": "^7.1 || ^8.0",
         "ext-json": "*",
         "se7enxweb/symfony": "^3.4",
         "jms/translation-bundle": "^1.6.0",
